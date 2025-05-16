@@ -34,4 +34,4 @@ def test_01():
         raise FileNotFoundError("File 'files/co_occurrences.csv' not found")
 
     if not os.path.exists("files/network.png"):
-        raise FileNotFoundError("File 'files/network.pmg' not found")
+        raise FileNotFoundError("File 'files/network.png' not found")
